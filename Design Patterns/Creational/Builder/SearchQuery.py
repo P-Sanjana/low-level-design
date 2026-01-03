@@ -5,6 +5,7 @@ class SearchQuery:
         self.sort = builder.sort
         self.size = builder.size
 
+
     def __str__(self):
         return f'SearchQuery(search={self.search}, filters={self.filters}, sort={self.sort}, size={self.size}'
 
