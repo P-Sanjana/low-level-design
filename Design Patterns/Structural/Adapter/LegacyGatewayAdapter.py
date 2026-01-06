@@ -15,3 +15,4 @@ class LegacyGatewayAdapter(PaymentProcessor):
 
     def get_transaction_id(self):
         return f'LEGACY_TXN_{self.current_ref}'
+    

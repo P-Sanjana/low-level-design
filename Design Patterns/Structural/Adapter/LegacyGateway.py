@@ -17,3 +17,4 @@ class LegacyGateway:
 
    def get_reference_number(self):
        return self.transaction_reference
+   
